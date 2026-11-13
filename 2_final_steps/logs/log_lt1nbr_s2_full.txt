@@ -1,0 +1,25 @@
+CONFIG {"mode": "full", "model": "lgb", "groups": ["base", "newst", "graph", "event", "analog", "trend", "vac", "wx", "nbr"], "folds": ["A", "B", "C"], "seeds": [2], "rounds": 2500, "lr": 0.03, "anchor_step": 7, "cs": false, "tag": "lt1nbr_s2_full", "ev_actual": true, "lgb_params": {"num_leaves": 255, "min_data_in_leaf": 100, "feature_fraction": 0.6}}
+load 0.1s | cpu 8 | gpu False
+  [full] 피처 생성 anchors 69 train 9,610,848 feats 86  (+11.4s, 누적 11s)
+  [fit lgb n=9,610,848] round 200/2500  (+100.4s, 누적 100s)
+  [fit lgb n=9,610,848] round 400/2500  (+61.1s, 누적 161s)
+  [fit lgb n=9,610,848] round 600/2500  (+53.0s, 누적 214s)
+  [fit lgb n=9,610,848] round 800/2500  (+46.6s, 누적 261s)
+  [fit lgb n=9,610,848] round 1000/2500  (+47.1s, 누적 308s)
+  [fit lgb n=9,610,848] round 1200/2500  (+43.3s, 누적 351s)
+  [fit lgb n=9,610,848] round 1400/2500  (+46.5s, 누적 398s)
+  [fit lgb n=9,610,848] round 1600/2500  (+45.6s, 누적 444s)
+  [fit lgb n=9,610,848] round 1800/2500  (+42.3s, 누적 486s)
+  [fit lgb n=9,610,848] round 2000/2500  (+43.9s, 누적 530s)
+  [fit lgb n=9,610,848] round 2200/2500  (+42.0s, 누적 572s)
+  [fit lgb n=9,610,848] round 2400/2500  (+41.3s, 누적 613s)
+  [fit lgb n=9,610,848] seed 2 학습+예측 완료  (+36.2s, 누적 649s)
+full: anchors 69 train 9,610,848 feats 86 | 661s
+count    157194.0
+mean        331.4
+std         326.7
+min           2.1
+25%         119.3
+50%         241.9
+75%         429.0
+max        2981.4

@@ -1,0 +1,66 @@
+﻿date,category,venue,station_id,detail,status,source,accessed
+2026-08-05,a_SSG_cancel,문학(SSG랜더스필드),3127.0,18:30 LG전 취소: 폭염(대형 폭염경보) / 당일 수시간 전 사전취소 (리드타임 약 330분),확정,munhak_schedule_2026H2.csv (사용자 제공),2026-11-12
+2026-08-06,a_SSG_cancel,문학(SSG랜더스필드),3127.0,18:30 LG전 취소: 폭염(8/5와 함께 사전 발표) / 전날 사전취소 (리드타임 약 1740분),확정,munhak_schedule_2026H2.csv (사용자 제공),2026-11-12
+2026-08-22,a_SSG_cancel,문학(SSG랜더스필드),3127.0,19:00 KT전 취소: 우천 / 약 2.5시간 이상 전 사전취소 (리드타임 약 150분),확정,munhak_schedule_2026H2.csv (사용자 제공); https://www.newspim.com/news/view/20260822000112,2026-11-12
+2026-09-25,a_SSG_cancel,문학(SSG랜더스필드),3127.0,17:00 삼성전 취소: 우천(추석 연휴) / 약 1시간 40분 전 취소(일부 팬 이미 도착 후 회군) (리드타임 약 100분),확정,munhak_schedule_2026H2.csv (사용자 제공),2026-11-12
+2026-07-03,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-04,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-05,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-16,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-17,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-18,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-19,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-24,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-25,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-26,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-28,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-29,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-30,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-04,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-11,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 19시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-12,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 19시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-13,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 19시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-21,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 19시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-23,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 19시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-25,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-26,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-08-27,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-04,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-05,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 17시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-06,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 17시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-10,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-15,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-20,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 14시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-22,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-24,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 17시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-29,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-09-30,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-10-01,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-10-07,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 18시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-10-09,a_SSG_home,문학(SSG랜더스필드),3127.0,홈경기 개최 14시,확정(v8d aux_data 기록),munhak_schedule_2026H2.csv (사용자 제공) = v8d ssg_home_actual.csv 와 날짜·시작시각 일치,v8d 작성 시
+2026-07-19,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 19시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-07-22,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 19시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-08-08,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 20시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-08-16,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 19시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-08-22,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 19시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-08-29,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 19시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-09-05,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 19시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-09-12,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 16시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-09-19,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 16시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-10-24,b_K리그_부천FC_home,부천종합운동장,3754.0,홈경기 14시,확정(v8d aux_data 기록),SINCON_v8d aux_data/bucheon_home_actual.csv (원 URL 미기록),v8d 작성 시
+2026-07-11,b_공연행사,아시아드,3209.0,싸이 흠뻑쇼,"확정(공표 일정, v8d final_post EVENTS)","v8d final_post.py EVENTS 주석(예매처·주최 공표, URL 미기록)",v8d 작성 시
+2026-08-29,b_공연행사,문학,3127.0,Sustainable Wave,"확정(공표 일정, v8d final_post EVENTS)","v8d final_post.py EVENTS 주석(예매처·주최 공표, URL 미기록)",v8d 작성 시
+2026-08-30,b_공연행사,문학,3127.0,Sustainable Wave,"확정(공표 일정, v8d final_post EVENTS)","v8d final_post.py EVENTS 주석(예매처·주최 공표, URL 미기록)",v8d 작성 시
+2026-09-12,b_공연행사,문학,3127.0,PLAVE 콘서트,"확정(공표 일정, v8d final_post EVENTS)","v8d final_post.py EVENTS 주석(예매처·주최 공표, URL 미기록)",v8d 작성 시
+2026-09-13,b_공연행사,문학,3127.0,PLAVE 콘서트,"확정(공표 일정, v8d final_post EVENTS)","v8d final_post.py EVENTS 주석(예매처·주최 공표, URL 미기록)",v8d 작성 시
+2026-07-17,c_공휴일,,,제헌절(18년만 공휴일 재지정),확정(보도),https://www.wikitree.co.kr/articles/1134027,2026-11-12
+2026-08-15,c_공휴일,,,광복절,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-08-17,c_공휴일,,,광복절 대체공휴일,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-09-24,c_공휴일,,,추석 연휴,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-09-25,c_공휴일,,,추석,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-09-26,c_공휴일,,,추석 연휴,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-10-03,c_공휴일,,,개천절,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-10-05,c_공휴일,,,개천절 대체공휴일,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-10-09,c_공휴일,,,한글날,"확정(달력, 법정공휴일)",calendar.csv / 관공서 공휴일 규정,2026-11-12
+2026-06-20~2026-08-31,d_방학,대학(인천대·인하대·연세대국제캠),,여름방학 근사,불확실(공식 학사일정 미확인),v8d sincon_v2.py UNIV_VAC,v8d 작성 시
+2026-07-24~2026-08-16,d_방학,인천 초중고,,여름방학 근사(학교별 상이),불확실,v8d sincon_v2.py SCHOOL_VAC,v8d 작성 시

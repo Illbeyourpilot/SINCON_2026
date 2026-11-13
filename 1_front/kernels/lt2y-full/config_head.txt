@@ -1,0 +1,1 @@
+CONFIG_OVERRIDE = {'mode': 'full', 'model': 'lgb', 'groups': ['base', 'newst', 'graph', 'event', 'analog', 'trend', 'vac', 'wx', 'hist', 'bus'], 'seeds': [1], 'rounds': 2500, 'lr': 0.03, 'cs': False, 'tag': 'lt2y_full', 'ev_actual': True, 'lgb_params': {'num_leaves': 63, 'min_data_in_leaf': 300, 'feature_fraction': 0.5, 'lambda_l2': 10.0}, 'hol_block': True, 'syn2024': 'full'}

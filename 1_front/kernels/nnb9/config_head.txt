@@ -1,0 +1,1 @@
+CONFIG_OVERRIDE = {'tag': 'nnb9', 'nn_epochs': 16, 'nn_seeds': [50, 51, 52], 'nn_folds': ['A', 'B'], 'groups': ['base', 'hist'], 'nn_v3': True, 'nn_v4': True, 'nn_W': 56, 'nn_d': 256, 'ev_actual': True, 'nn_bus': True}

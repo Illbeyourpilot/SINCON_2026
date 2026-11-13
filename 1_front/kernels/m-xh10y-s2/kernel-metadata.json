@@ -1,0 +1,15 @@
+{
+ "id": "wkdrbwnd1/sincon-m-xh10y-s2",
+ "title": "sincon-m-xh10y-s2",
+ "code_file": "run.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "dataset_sources": [
+  "wkdrbwnd1/sincon-work"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

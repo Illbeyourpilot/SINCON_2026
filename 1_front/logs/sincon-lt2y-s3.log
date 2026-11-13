@@ -1,0 +1,226 @@
+[{"stream_name":"stdout","time":3.190286507,"data":"CONFIG {\"mode\": \"full\", \"model\": \"lgb\", \"groups\": [\"base\", \"newst\", \"graph\", \"event\", \"analog\", \"trend\", \"vac\", \"wx\", \"hist\", \"bus\"], \"folds\": [\"A\", \"B\", \"C\"], \"seeds\": [3], \"rounds\": 2500, \"lr\": 0.03, \"anchor_step\": 7, \"cs\": false, \"tag\": \"lt2y_s3\", \"ev_actual\": true, \"lgb_params\": {\"num_leaves\": 63, \"min_data_in_leaf\": 300, \"feature_fraction\": 0.5, \"lambda_l2\": 10.0}, \"hol_block\": true, \"syn2024\": \"full\"}\n"}
+,{"stream_name":"stdout","time":4.779466845,"data":"load 1.6s | cpu 4 | gpu False\n"}
+,{"stream_name":"stderr","time":6.751708411,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":6.751750862,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":7.16144946,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":7.161490112,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":7.563713866,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":7.563750767,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":7.984368389,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":7.984405471,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":8.398505715,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":8.398549601,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":8.807491331,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":8.807529967,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":9.227023642,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":9.227063979,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":9.63839587,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":9.638437631,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":10.028977943,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":10.029015376,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":10.442215301,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":10.44225313,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":10.861182462,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":10.861221357,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":11.277943608,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":11.277977867,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":11.67077808,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":11.670818269,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":12.06254559,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":12.062592178,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":12.45265496,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":12.452694041,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":12.857377626,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":12.857416389,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":13.259779099,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":13.259817868,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":13.664542833,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":13.664600757,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":14.056139428,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":14.056176768,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":14.461603371,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":14.461645404,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":14.863396398,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":14.863435431,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":15.254660711,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":15.254704511,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":15.653745725,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":15.653784896,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":16.060532364,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":16.060570263,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":16.457431246,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":16.457470266,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":16.870994146,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":16.871030987,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":17.273978081,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":17.274015679,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":17.702704569,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":17.702757449,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":18.105194492,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":18.105233841,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":18.546670508,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":18.546708832,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":18.957300295,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":18.957335214,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":19.395295941,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":19.395335965,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":19.823368819,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":19.823426297,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":20.278353437,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":20.278388265,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":20.699508111,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":20.699547495,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":21.179239985,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":21.17929173,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":21.632349977,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":21.632387883,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":22.091903549,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":22.091941868,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":22.543404795,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":22.543440017,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":23.02779058,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":23.027827298,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":23.512844103,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":23.512951411,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":23.985381354,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":23.985416034,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":24.416551792,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":24.416593226,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":24.888939253,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":24.888980636,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":25.321486612,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":25.32152585,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":25.769813454,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":25.769865135,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":26.226359582,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":26.226396638,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":26.655875018,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":26.655911578,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":27.099582757,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":27.09961958,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":27.537656005,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":27.537693717,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":27.981467106,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":27.981504106,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":28.436933801,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":28.436968973,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":28.868555708,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":28.868596646,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":29.318218535,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":29.318284226,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":29.755672242,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":29.755710362,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":30.202741334,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":30.202781502,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":30.653980276,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":30.654017354,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":31.144080909,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":31.14411899,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":31.588704071,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":31.5887426,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":32.044690324,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":32.044729682,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":32.486725685,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":32.486760874,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":32.982467466,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":32.982504871,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":33.423028821,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":33.423065109,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":33.893684822,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":33.893723569,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":34.335394861,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":34.335444961,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":34.804718237,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":34.804763391,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":35.251456979,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":35.251498639,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":35.702316057,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":35.702359277,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":36.149071274,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":36.149114158,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":36.617061532,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":36.617101212,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":37.062364298,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":37.062403347,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":37.52641028,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":37.526448896,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":37.963773856,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":37.963810393,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":38.430337161,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":38.430374114,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":38.874693055,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":38.874730559,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":39.326340302,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":39.326374318,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":39.773756127,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":39.773798687,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":40.230733378,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":40.230773064,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":40.675665522,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":40.675704195,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":41.141483497,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":41.141529538,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":41.558044351,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":41.558080807,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":41.950705318,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":41.950741401,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":42.30550059,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":42.305535481,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":42.636729724,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":42.636765057,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":42.954848213,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":42.954887543,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":43.252531941,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":43.252589744,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":43.532397091,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":43.532434068,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":43.799342856,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":43.799381278,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":44.024243654,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":44.024306484,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":44.247421903,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":44.247458119,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":44.430097374,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":44.430135515,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":44.599459752,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":44.599492208,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":44.748556133,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":44.748591351,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":44.876739517,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":44.876777116,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":44.984007263,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":44.984042228,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":45.06679376,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":45.06682849,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stderr","time":47.570608328,"data":"/kaggle/src/script.py:429: RuntimeWarning: Mean of empty slice\n"}
+,{"stream_name":"stderr","time":47.570652219,"data":"  Hs = np.nanmean(Hc, axis=1)\n"}
+,{"stream_name":"stdout","time":47.65416577,"data":"  [full] 피처 생성 anchors 96 train 13,574,376 feats 86  (+42.2s, 누적 42s)\n"}
+,{"stream_name":"stdout","time":416.313074845,"data":"  [fit lgb n=13,574,376] round 200/2500  (+368.7s, 누적 369s)\n"}
+,{"stream_name":"stdout","time":664.884930231,"data":"  [fit lgb n=13,574,376] round 400/2500  (+248.6s, 누적 617s)\n"}
+,{"stream_name":"stdout","time":865.266796345,"data":"  [fit lgb n=13,574,376] round 600/2500  (+200.4s, 누적 818s)\n"}
+,{"stream_name":"stdout","time":1044.509630097,"data":"  [fit lgb n=13,574,376] round 800/2500  (+179.2s, 누적 997s)\n"}
+,{"stream_name":"stdout","time":1214.363877589,"data":"  [fit lgb n=13,574,376] round 1000/2500  (+169.9s, 누적 1167s)\n"}
+,{"stream_name":"stdout","time":1388.720640862,"data":"  [fit lgb n=13,574,376] round 1200/2500  (+174.4s, 누적 1341s)\n"}
+,{"stream_name":"stdout","time":1555.607811573,"data":"  [fit lgb n=13,574,376] round 1400/2500  (+166.9s, 누적 1508s)\n"}
+,{"stream_name":"stdout","time":1717.591442909,"data":"  [fit lgb n=13,574,376] round 1600/2500  (+162.0s, 누적 1670s)\n"}
+,{"stream_name":"stdout","time":1882.84218889,"data":"  [fit lgb n=13,574,376] round 1800/2500  (+165.3s, 누적 1835s)\n"}
+,{"stream_name":"stdout","time":2045.583436075,"data":"  [fit lgb n=13,574,376] round 2000/2500  (+162.7s, 누적 1998s)\n"}
+,{"stream_name":"stdout","time":2211.114141466,"data":"  [fit lgb n=13,574,376] round 2200/2500  (+165.5s, 누적 2163s)\n"}
+,{"stream_name":"stdout","time":2372.028870263,"data":"  [fit lgb n=13,574,376] round 2400/2500  (+160.9s, 누적 2324s)\n"}
+,{"stream_name":"stdout","time":2468.895394412,"data":"  [fit lgb n=13,574,376] seed 3 학습+예측 완료  (+96.9s, 누적 2421s)\n"}
+,{"stream_name":"stdout","time":2470.069405422,"data":"full: anchors 96 train 13,574,376 feats 86 | 2465s\n"}
+,{"stream_name":"stdout","time":2470.084608976,"data":"count    157194.0\n"}
+,{"stream_name":"stdout","time":2470.084642158,"data":"mean        331.0\n"}
+,{"stream_name":"stdout","time":2470.084649147,"data":"std         326.1\n"}
+,{"stream_name":"stdout","time":2470.08465426,"data":"min           2.6\n"}
+,{"stream_name":"stdout","time":2470.084659078,"data":"25%         119.7\n"}
+,{"stream_name":"stdout","time":2470.084663915,"data":"50%         242.7\n"}
+,{"stream_name":"stdout","time":2470.084667553,"data":"75%         427.2\n"}
+,{"stream_name":"stdout","time":2470.084670641,"data":"max        2893.5\n"}
+,{"stream_name":"stderr","time":2474.609595693,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":2474.609639559,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":2474.99762463,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":2474.997653977,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":2476.057870528,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":2478.040636611,"data":"[NbConvertApp] Writing 732612 bytes to __results__.html\n"}
+]

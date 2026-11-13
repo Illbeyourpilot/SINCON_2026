@@ -1,0 +1,287 @@
+>> post_penta.py
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_penta.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+2026-07-31 stations [3137, 3138, 3139] pred sum 15043 -> 23220 | 2025 actual 22146
+2026-08-01 stations [3137, 3138, 3139] pred sum 14225 -> 17951 | 2025 actual 18917
+2026-08-02 stations [3137, 3138, 3139] pred sum 10553 -> 15388 | 2025 actual 15932
+rows 162
+>> post_weekC.py
+target 1.0295
+2026-06-29/2026-07-05    0.029
+2026-07-06/2026-07-12    0.025
+2026-07-13/2026-07-19    0.030
+2026-07-20/2026-07-26    0.015
+2026-07-27/2026-08-02   -0.001
+2026-08-03/2026-08-09   -0.006
+2026-08-10/2026-08-16    0.005
+2026-08-17/2026-08-23   -0.002
+2026-08-24/2026-08-30    0.012
+2026-08-31/2026-09-06   -0.006
+2026-09-07/2026-09-13   -0.034
+2026-09-14/2026-09-20   -0.037
+2026-09-21/2026-09-27   -0.015
+2026-09-28/2026-10-04    0.032
+2026-10-05/2026-10-11    0.014
+2026-10-12/2026-10-18   -0.002
+2026-10-19/2026-10-25   -0.001
+2026-10-26/2026-11-01    0.002
+Freq: W-SUN
+>> post_asiad_clean.py
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_asiad_clean.py:9: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  ref=te[(te.station_id==st)&(te.date.dt.dayofweek==d.dayofweek)&((te.date-d).abs().dt.days.between(7,35))&~te.date.isin(bad)]
+rows 32 sum 5914 -> 4732
+>> post_nstrend.py
+3107 2026-07 g 0.057 adj +0.129
+3107 2026-08 g 0.057 adj +0.120
+3107 2026-09 g 0.057 adj +0.117
+3107 2026-10 g 0.057 adj +0.118
+3108 2026-07 g 0.024 adj +0.023
+3108 2026-08 g 0.024 adj +0.009
+3108 2026-09 g 0.024 adj +0.006
+3108 2026-10 g 0.024 adj +0.001
+3109 2026-07 g 0.012 adj +0.021
+3109 2026-08 g 0.012 adj -0.000
+3109 2026-09 g 0.012 adj -0.008
+3109 2026-10 g 0.012 adj -0.013
+>> post_psy.py
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_psy.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_psy.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_psy.py:15: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  wd=day.dayofweek>=5
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_psy.py:16: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  m=df.station_id.isin(near)&((df.date-day).abs().dt.days<=21)&((df.date.dt.dayofweek>=5)==wd)&~df.date.isin(EV)&~df.date.isin(V.HSET)
+2026-07-11 stations [3207, 3208, 3209, 3210] pred sum 22693 -> 16448 | 2025 actual 17616
+rows 72
+>> post_conv.py
+event days 54 rows 972 mean adj 0.061
+>> post_aci.py
+rows 84 mean adj on evening rows 0.195
+>> post_bucheon.py
+2026-07-19 att 9218 start 19 3754 end-hour 425 -> 808
+2026-07-22 att 3531 start 19 3754 end-hour 432 -> 1006
+2026-08-08 att 5187 start 20 3754 end-hour 150 -> 442
+2026-08-16 att 9268 start 19 3754 end-hour 245 -> 786
+2026-08-22 att 4283 start 19 3754 end-hour 256 -> 627
+2026-08-29 att 7066 start 19 3754 end-hour 319 -> 747
+2026-09-05 att 5623 start 19 3754 end-hour 390 -> 632
+2026-09-12 att 6269 start 16 3754 end-hour 631 -> 1441
+2026-09-19 att 4602 start 16 3754 end-hour 599 -> 1383
+2026-10-24 att 6076 start 14 3754 end-hour 455 -> 2344
+>> post_park.py
+3226 rows 54 x1.31
+3227 rows 54 x1.09
+>> post_beach_nhd.py
+  행사장 munhak: 과거 행사일 39일, 주변역 5개
+  행사장 asiad: 과거 행사일 14일, 주변역 4개
+  행사장 songdo: 과거 행사일 16일, 주변역 3개
+  행사장 bupyeong: 과거 행사일 3일, 주변역 7개
+beach rows 108 max 1.19
+nhd rows 36
+>> post_cemetery.py
+rows 18 day sum 6025 -> 7779 (analog days 9274, 11075)
+>> post_beer.py
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:14: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  def kind(d,last): return "last" if d==last else ("sat" if d.dayofweek==5 else "sun" if d.dayofweek==6 else "wd")
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+C:\sincon\SINCON_2026_final\0b_our_corrections\code\post_beer.py:11: Pandas4Warning: Timestamp.dayofweek is deprecated and will be removed in a future version. Use Timestamp.day_of_week instead.
+  same=(df.date.dt.dayofweek>=5)==(d.dayofweek>=5) if d.dayofweek<5 else (df.date.dt.dayofweek==d.dayofweek)
+08-22 Sat sat 3139 22h 2432 -> 1226
+08-23 Sun sun 3139 22h 1577 -> 901
+08-24 Mon wd 3139 22h 1209 -> 429
+08-25 Tue wd 3139 22h 1521 -> 429
+08-26 Wed wd 3139 22h 1166 -> 429
+08-27 Thu wd 3139 22h 923 -> 429
+08-28 Fri wd 3139 22h 1210 -> 429
+08-29 Sat sat 3139 22h 1070 -> 1226
+08-30 Sun last 3139 22h 467 -> 1926
+DONE
+max diff vs 1_front/teammate/output/blend60_ourfix_safe.csv 0.0

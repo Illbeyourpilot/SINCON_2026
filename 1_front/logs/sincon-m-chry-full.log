@@ -1,0 +1,13 @@
+[{"stream_name":"stdout","time":5.405528451,"data":"CONFIG {\"mode\": \"chronos_full\", \"model\": \"lgb\", \"groups\": [\"base\", \"newst\", \"graph\", \"analog\"], \"folds\": [\"A\", \"B\", \"C\"], \"seeds\": [0], \"rounds\": 1000, \"lr\": 0.05, \"anchor_step\": 7, \"cs\": true, \"tag\": \"chr_e3y_full\", \"chr_geo\": true, \"syn2024\": \"full\"}\n"}
+,{"stream_name":"stdout","time":7.000990153,"data":"load 1.6s | cpu 4 | gpu True\n"}
+,{"stream_name":"stderr","time":30.468446692,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":34.856869431,"data":"\rLoading weights:   0%|          | 0/170 [00:00\u003c?, ?it/s]\rLoading weights:  68%|██████▊   | 116/170 [00:00\u003c00:00, 1145.72it/s]\rLoading weights: 100%|██████████| 170/170 [00:00\u003c00:00, 1159.81it/s]\n"}
+,{"stream_name":"stdout","time":114.435265263,"data":"  chronos device=cuda series=1278 H=123 77s\n"}
+,{"stream_name":"stdout","time":115.141311927,"data":"chronos full: mean log 5.3892\n"}
+,{"stream_name":"stderr","time":120.038433425,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":120.038471605,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":120.234104228,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":120.234127908,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":121.012251539,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":122.271513006,"data":"[NbConvertApp] Writing 731538 bytes to __results__.html\n"}
+]

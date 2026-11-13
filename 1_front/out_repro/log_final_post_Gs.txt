@@ -1,0 +1,24 @@
+설정 {'lgb': 'lt1y_full,lt2y_full,lt1y_s2,lt2y_s3', 'xgb': 'xh10y_full,xh8y_full,xh10y_s2,xh8y_s3', 'wl': 0.75, 'wt': 0.65, 'chrhist': 0.0, 'holmatch': 1, 'nn': 'nn13b18b9_full:0.3', 'newtrend': 0.0, 'ssgbox': 1.0, 'bus': 0.4, 'ghost_off': 0, 'cancel_fix': 0, 'chr': 'chr_e3y_full,wx_chry_full', 'lgb_new': 'lt1h_fullb,lt2h_fullb', 'xgb_new': 'xh10_fullb,xh8_fullb,xh10_s2b,xh8_s3b', 'chr_new': 'chr_e3_full,wx_chr_full', 'out': 'cmb_Gs.csv'}
+평균 log: lgb 5.3701 xgb 5.3679 chronos 5.3894 -> P 5.3764
+  4 날씨           행  157194  평균 -0.0002  범위 -0.163~+0.047
+  5 경기 시작        행    3805  평균 +0.0011  범위 -0.031~+1.267
+  6 명절 목표     행    6390
+  7 신경망 nn13b18b9_full x0.3
+  9 문학 종료·관중     행     178  평균 -0.0000  범위 -0.907~+1.177
+  10 서울 버스       행  148248  평균 -0.0029  범위 -0.074~+0.060
+  행사장 munhak: 과거 행사일 39일, 주변역 5개
+  행사장 asiad: 과거 행사일 14일, 주변역 4개
+  행사장 songdo: 과거 행사일 16일, 주변역 3개
+  행사장 bupyeong: 과거 행사일 3일, 주변역 7개
+  행사장 marathon: 과거 행사일 3일, 주변역 6개
+  11 공연·축제       행    1530  평균 +0.0011  범위 -0.199~+2.154
+-> C:\sincon\SINCON_2026_final\1_front\work\cmb_Gs.csv
+count    157194.0
+mean        332.9
+std         340.5
+min           2.2
+25%         119.7
+50%         241.8
+75%         426.3
+max       14640.6
+Name: boardings, dtype: float64

@@ -1,0 +1,15 @@
+{
+ "id": "rkdaltmd/sincon-xh10-fullb",
+ "title": "sincon-xh10-fullb",
+ "code_file": "run.py",
+ "language": "python",
+ "kernel_type": "script",
+ "is_private": true,
+ "enable_gpu": true,
+ "enable_internet": false,
+ "dataset_sources": [
+  "rkdaltmd/sincon-work"
+ ],
+ "competition_sources": [],
+ "kernel_sources": []
+}

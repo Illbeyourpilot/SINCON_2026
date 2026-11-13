@@ -1,0 +1,182 @@
+[{"stream_name":"stdout","time":16.390444739,"data":"장치 cuda\n"}
+,{"stream_name":"stdout","time":18.596029105,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":18.602899844,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":18.60981682,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":28.375631482,"data":"  nn seed70 ep0 loss 0.1579\n"}
+,{"stream_name":"stdout","time":30.88180862,"data":"  nn seed70 ep1 loss 0.0688\n"}
+,{"stream_name":"stdout","time":33.397911423,"data":"  nn seed70 ep2 loss 0.0391\n"}
+,{"stream_name":"stdout","time":35.923739059,"data":"  nn seed70 ep3 loss 0.0360\n"}
+,{"stream_name":"stdout","time":38.454741567,"data":"  nn seed70 ep4 loss 0.0328\n"}
+,{"stream_name":"stdout","time":40.989022874,"data":"  nn seed70 ep5 loss 0.0306\n"}
+,{"stream_name":"stdout","time":43.535704646,"data":"  nn seed70 ep6 loss 0.0283\n"}
+,{"stream_name":"stdout","time":46.090606797,"data":"  nn seed70 ep7 loss 0.0274\n"}
+,{"stream_name":"stdout","time":48.65934528,"data":"  nn seed70 ep8 loss 0.0264\n"}
+,{"stream_name":"stdout","time":51.235053562,"data":"  nn seed70 ep9 loss 0.0261\n"}
+,{"stream_name":"stdout","time":53.824202396,"data":"  nn seed70 ep10 loss 0.0250\n"}
+,{"stream_name":"stdout","time":56.413088655,"data":"  nn seed70 ep11 loss 0.0249\n"}
+,{"stream_name":"stdout","time":59.013707555,"data":"  nn seed70 ep12 loss 0.0245\n"}
+,{"stream_name":"stdout","time":61.616144783,"data":"  nn seed70 ep13 loss 0.0245\n"}
+,{"stream_name":"stdout","time":64.235319775,"data":"  nn seed70 ep14 loss 0.0243\n"}
+,{"stream_name":"stdout","time":66.854511577,"data":"  nn seed70 ep15 loss 0.0241\n"}
+,{"stream_name":"stdout","time":66.971177829,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":66.977659128,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":66.983971362,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":69.619257718,"data":"  nn seed71 ep0 loss 0.1521\n"}
+,{"stream_name":"stdout","time":72.263579807,"data":"  nn seed71 ep1 loss 0.0671\n"}
+,{"stream_name":"stdout","time":74.909989375,"data":"  nn seed71 ep2 loss 0.0390\n"}
+,{"stream_name":"stdout","time":77.563890321,"data":"  nn seed71 ep3 loss 0.0348\n"}
+,{"stream_name":"stdout","time":80.223692425,"data":"  nn seed71 ep4 loss 0.0321\n"}
+,{"stream_name":"stdout","time":82.894964583,"data":"  nn seed71 ep5 loss 0.0298\n"}
+,{"stream_name":"stdout","time":85.572350504,"data":"  nn seed71 ep6 loss 0.0284\n"}
+,{"stream_name":"stdout","time":88.25580924,"data":"  nn seed71 ep7 loss 0.0272\n"}
+,{"stream_name":"stdout","time":90.948597709,"data":"  nn seed71 ep8 loss 0.0262\n"}
+,{"stream_name":"stdout","time":93.653583798,"data":"  nn seed71 ep9 loss 0.0260\n"}
+,{"stream_name":"stdout","time":96.365741126,"data":"  nn seed71 ep10 loss 0.0250\n"}
+,{"stream_name":"stdout","time":99.082417624,"data":"  nn seed71 ep11 loss 0.0249\n"}
+,{"stream_name":"stdout","time":101.813550647,"data":"  nn seed71 ep12 loss 0.0245\n"}
+,{"stream_name":"stdout","time":104.557419856,"data":"  nn seed71 ep13 loss 0.0242\n"}
+,{"stream_name":"stdout","time":107.298167545,"data":"  nn seed71 ep14 loss 0.0242\n"}
+,{"stream_name":"stdout","time":110.058659074,"data":"  nn seed71 ep15 loss 0.0237\n"}
+,{"stream_name":"stdout","time":110.162772784,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":110.169197485,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":110.175956567,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":112.952715725,"data":"  nn seed72 ep0 loss 0.1590\n"}
+,{"stream_name":"stdout","time":115.736919862,"data":"  nn seed72 ep1 loss 0.0698\n"}
+,{"stream_name":"stdout","time":118.534145882,"data":"  nn seed72 ep2 loss 0.0387\n"}
+,{"stream_name":"stdout","time":121.355861557,"data":"  nn seed72 ep3 loss 0.0345\n"}
+,{"stream_name":"stdout","time":124.224359409,"data":"  nn seed72 ep4 loss 0.0318\n"}
+,{"stream_name":"stdout","time":127.1222874,"data":"  nn seed72 ep5 loss 0.0299\n"}
+,{"stream_name":"stdout","time":130.079318326,"data":"  nn seed72 ep6 loss 0.0283\n"}
+,{"stream_name":"stdout","time":133.047323452,"data":"  nn seed72 ep7 loss 0.0271\n"}
+,{"stream_name":"stdout","time":136.016346567,"data":"  nn seed72 ep8 loss 0.0264\n"}
+,{"stream_name":"stdout","time":138.983367752,"data":"  nn seed72 ep9 loss 0.0255\n"}
+,{"stream_name":"stdout","time":141.951136283,"data":"  nn seed72 ep10 loss 0.0251\n"}
+,{"stream_name":"stdout","time":144.814470239,"data":"  nn seed72 ep11 loss 0.0247\n"}
+,{"stream_name":"stdout","time":147.625696429,"data":"  nn seed72 ep12 loss 0.0243\n"}
+,{"stream_name":"stdout","time":150.42400713,"data":"  nn seed72 ep13 loss 0.0240\n"}
+,{"stream_name":"stdout","time":153.213298393,"data":"  nn seed72 ep14 loss 0.0241\n"}
+,{"stream_name":"stdout","time":155.995952537,"data":"  nn seed72 ep15 loss 0.0239\n"}
+,{"stream_name":"stdout","time":156.14854118,"data":"[A] nn rmse 0.27036 (행 157194)\n"}
+,{"stream_name":"stdout","time":156.66040576,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":156.667087085,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":156.673547354,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":165.805008563,"data":"  nn seed70 ep0 loss 0.1077\n"}
+,{"stream_name":"stdout","time":174.9384484,"data":"  nn seed70 ep1 loss 0.0424\n"}
+,{"stream_name":"stdout","time":184.07019764,"data":"  nn seed70 ep2 loss 0.0368\n"}
+,{"stream_name":"stdout","time":193.203441205,"data":"  nn seed70 ep3 loss 0.0326\n"}
+,{"stream_name":"stdout","time":202.353312206,"data":"  nn seed70 ep4 loss 0.0300\n"}
+,{"stream_name":"stdout","time":211.502937596,"data":"  nn seed70 ep5 loss 0.0280\n"}
+,{"stream_name":"stdout","time":220.642729291,"data":"  nn seed70 ep6 loss 0.0264\n"}
+,{"stream_name":"stdout","time":229.774247667,"data":"  nn seed70 ep7 loss 0.0254\n"}
+,{"stream_name":"stdout","time":238.905334031,"data":"  nn seed70 ep8 loss 0.0244\n"}
+,{"stream_name":"stdout","time":248.037610625,"data":"  nn seed70 ep9 loss 0.0236\n"}
+,{"stream_name":"stdout","time":257.172528296,"data":"  nn seed70 ep10 loss 0.0231\n"}
+,{"stream_name":"stdout","time":266.315506013,"data":"  nn seed70 ep11 loss 0.0227\n"}
+,{"stream_name":"stdout","time":275.459360533,"data":"  nn seed70 ep12 loss 0.0224\n"}
+,{"stream_name":"stdout","time":284.599023232,"data":"  nn seed70 ep13 loss 0.0221\n"}
+,{"stream_name":"stdout","time":293.729871234,"data":"  nn seed70 ep14 loss 0.0219\n"}
+,{"stream_name":"stdout","time":302.86130598,"data":"  nn seed70 ep15 loss 0.0220\n"}
+,{"stream_name":"stdout","time":302.998993238,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":303.005578487,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":303.012054812,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":312.132849664,"data":"  nn seed71 ep0 loss 0.1104\n"}
+,{"stream_name":"stdout","time":321.264414866,"data":"  nn seed71 ep1 loss 0.0421\n"}
+,{"stream_name":"stdout","time":330.406196094,"data":"  nn seed71 ep2 loss 0.0366\n"}
+,{"stream_name":"stdout","time":339.553208808,"data":"  nn seed71 ep3 loss 0.0326\n"}
+,{"stream_name":"stdout","time":348.700610299,"data":"  nn seed71 ep4 loss 0.0298\n"}
+,{"stream_name":"stdout","time":357.828312448,"data":"  nn seed71 ep5 loss 0.0280\n"}
+,{"stream_name":"stdout","time":366.953347118,"data":"  nn seed71 ep6 loss 0.0262\n"}
+,{"stream_name":"stdout","time":376.083686011,"data":"  nn seed71 ep7 loss 0.0252\n"}
+,{"stream_name":"stdout","time":385.209583195,"data":"  nn seed71 ep8 loss 0.0243\n"}
+,{"stream_name":"stdout","time":394.348358544,"data":"  nn seed71 ep9 loss 0.0235\n"}
+,{"stream_name":"stdout","time":403.497507929,"data":"  nn seed71 ep10 loss 0.0231\n"}
+,{"stream_name":"stdout","time":412.648457677,"data":"  nn seed71 ep11 loss 0.0226\n"}
+,{"stream_name":"stdout","time":421.797311445,"data":"  nn seed71 ep12 loss 0.0223\n"}
+,{"stream_name":"stdout","time":430.930818071,"data":"  nn seed71 ep13 loss 0.0220\n"}
+,{"stream_name":"stdout","time":440.062830222,"data":"  nn seed71 ep14 loss 0.0220\n"}
+,{"stream_name":"stdout","time":449.198139294,"data":"  nn seed71 ep15 loss 0.0219\n"}
+,{"stream_name":"stdout","time":449.327235586,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":449.333784051,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":449.340084795,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":458.468534836,"data":"  nn seed72 ep0 loss 0.1098\n"}
+,{"stream_name":"stdout","time":467.610182361,"data":"  nn seed72 ep1 loss 0.0419\n"}
+,{"stream_name":"stdout","time":476.758726286,"data":"  nn seed72 ep2 loss 0.0363\n"}
+,{"stream_name":"stdout","time":485.900947704,"data":"  nn seed72 ep3 loss 0.0326\n"}
+,{"stream_name":"stdout","time":495.029302596,"data":"  nn seed72 ep4 loss 0.0296\n"}
+,{"stream_name":"stdout","time":504.155804388,"data":"  nn seed72 ep5 loss 0.0277\n"}
+,{"stream_name":"stdout","time":513.286446121,"data":"  nn seed72 ep6 loss 0.0262\n"}
+,{"stream_name":"stdout","time":522.416684772,"data":"  nn seed72 ep7 loss 0.0253\n"}
+,{"stream_name":"stdout","time":531.549610229,"data":"  nn seed72 ep8 loss 0.0243\n"}
+,{"stream_name":"stdout","time":540.695288781,"data":"  nn seed72 ep9 loss 0.0235\n"}
+,{"stream_name":"stdout","time":549.838934571,"data":"  nn seed72 ep10 loss 0.0230\n"}
+,{"stream_name":"stdout","time":558.978491375,"data":"  nn seed72 ep11 loss 0.0226\n"}
+,{"stream_name":"stdout","time":568.110449156,"data":"  nn seed72 ep12 loss 0.0222\n"}
+,{"stream_name":"stdout","time":577.241487717,"data":"  nn seed72 ep13 loss 0.0220\n"}
+,{"stream_name":"stdout","time":586.370621084,"data":"  nn seed72 ep14 loss 0.0219\n"}
+,{"stream_name":"stdout","time":595.499844318,"data":"  nn seed72 ep15 loss 0.0218\n"}
+,{"stream_name":"stdout","time":595.635428033,"data":"[B] nn rmse 0.18063 (행 155916)\n"}
+,{"stream_name":"stdout","time":596.144345248,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":596.150853725,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":596.157302225,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":608.398442764,"data":"  nn seed70 ep0 loss 0.0953\n"}
+,{"stream_name":"stdout","time":620.631397307,"data":"  nn seed70 ep1 loss 0.0405\n"}
+,{"stream_name":"stdout","time":632.847954967,"data":"  nn seed70 ep2 loss 0.0352\n"}
+,{"stream_name":"stdout","time":645.0682216,"data":"  nn seed70 ep3 loss 0.0312\n"}
+,{"stream_name":"stdout","time":657.290323642,"data":"  nn seed70 ep4 loss 0.0286\n"}
+,{"stream_name":"stdout","time":669.522617599,"data":"  nn seed70 ep5 loss 0.0266\n"}
+,{"stream_name":"stdout","time":681.765035174,"data":"  nn seed70 ep6 loss 0.0250\n"}
+,{"stream_name":"stdout","time":694.000991615,"data":"  nn seed70 ep7 loss 0.0237\n"}
+,{"stream_name":"stdout","time":706.22283316,"data":"  nn seed70 ep8 loss 0.0228\n"}
+,{"stream_name":"stdout","time":718.451518707,"data":"  nn seed70 ep9 loss 0.0222\n"}
+,{"stream_name":"stdout","time":730.681493873,"data":"  nn seed70 ep10 loss 0.0216\n"}
+,{"stream_name":"stdout","time":742.930331699,"data":"  nn seed70 ep11 loss 0.0211\n"}
+,{"stream_name":"stdout","time":755.177531019,"data":"  nn seed70 ep12 loss 0.0208\n"}
+,{"stream_name":"stdout","time":767.407681225,"data":"  nn seed70 ep13 loss 0.0206\n"}
+,{"stream_name":"stdout","time":779.636590168,"data":"  nn seed70 ep14 loss 0.0204\n"}
+,{"stream_name":"stdout","time":791.864272072,"data":"  nn seed70 ep15 loss 0.0204\n"}
+,{"stream_name":"stdout","time":792.00807141,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":792.014768196,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":792.021357849,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":804.25230339,"data":"  nn seed71 ep0 loss 0.0964\n"}
+,{"stream_name":"stdout","time":816.48962192,"data":"  nn seed71 ep1 loss 0.0400\n"}
+,{"stream_name":"stdout","time":828.724873511,"data":"  nn seed71 ep2 loss 0.0348\n"}
+,{"stream_name":"stdout","time":840.94574697,"data":"  nn seed71 ep3 loss 0.0311\n"}
+,{"stream_name":"stdout","time":853.174778796,"data":"  nn seed71 ep4 loss 0.0285\n"}
+,{"stream_name":"stdout","time":865.403766662,"data":"  nn seed71 ep5 loss 0.0264\n"}
+,{"stream_name":"stdout","time":877.645273281,"data":"  nn seed71 ep6 loss 0.0249\n"}
+,{"stream_name":"stdout","time":889.888264953,"data":"  nn seed71 ep7 loss 0.0237\n"}
+,{"stream_name":"stdout","time":902.107869726,"data":"  nn seed71 ep8 loss 0.0227\n"}
+,{"stream_name":"stdout","time":914.328791839,"data":"  nn seed71 ep9 loss 0.0220\n"}
+,{"stream_name":"stdout","time":926.556386341,"data":"  nn seed71 ep10 loss 0.0215\n"}
+,{"stream_name":"stdout","time":938.789715855,"data":"  nn seed71 ep11 loss 0.0210\n"}
+,{"stream_name":"stdout","time":951.03442344,"data":"  nn seed71 ep12 loss 0.0207\n"}
+,{"stream_name":"stdout","time":963.274750168,"data":"  nn seed71 ep13 loss 0.0205\n"}
+,{"stream_name":"stdout","time":975.500939134,"data":"  nn seed71 ep14 loss 0.0204\n"}
+,{"stream_name":"stdout","time":987.729338397,"data":"  nn seed71 ep15 loss 0.0204\n"}
+,{"stream_name":"stdout","time":987.873315741,"data":"  행사장 munhak: 행사일 29\n"}
+,{"stream_name":"stdout","time":987.880100122,"data":"  행사장 asiad: 행사일 6\n"}
+,{"stream_name":"stdout","time":987.886563187,"data":"  행사장 songdo: 행사일 19\n"}
+,{"stream_name":"stdout","time":1000.110101445,"data":"  nn seed72 ep0 loss 0.0972\n"}
+,{"stream_name":"stdout","time":1012.351787051,"data":"  nn seed72 ep1 loss 0.0401\n"}
+,{"stream_name":"stdout","time":1024.592276685,"data":"  nn seed72 ep2 loss 0.0346\n"}
+,{"stream_name":"stdout","time":1036.813069798,"data":"  nn seed72 ep3 loss 0.0310\n"}
+,{"stream_name":"stdout","time":1049.028348915,"data":"  nn seed72 ep4 loss 0.0285\n"}
+,{"stream_name":"stdout","time":1061.254503293,"data":"  nn seed72 ep5 loss 0.0265\n"}
+,{"stream_name":"stdout","time":1073.483227353,"data":"  nn seed72 ep6 loss 0.0250\n"}
+,{"stream_name":"stdout","time":1085.724759509,"data":"  nn seed72 ep7 loss 0.0238\n"}
+,{"stream_name":"stdout","time":1097.96492862,"data":"  nn seed72 ep8 loss 0.0231\n"}
+,{"stream_name":"stdout","time":1110.187329186,"data":"  nn seed72 ep9 loss 0.0223\n"}
+,{"stream_name":"stdout","time":1122.409209823,"data":"  nn seed72 ep10 loss 0.0216\n"}
+,{"stream_name":"stdout","time":1134.635311131,"data":"  nn seed72 ep11 loss 0.0211\n"}
+,{"stream_name":"stdout","time":1146.878117864,"data":"  nn seed72 ep12 loss 0.0208\n"}
+,{"stream_name":"stdout","time":1159.135354393,"data":"  nn seed72 ep13 loss 0.0205\n"}
+,{"stream_name":"stdout","time":1171.37268586,"data":"  nn seed72 ep14 loss 0.0204\n"}
+,{"stream_name":"stdout","time":1183.598651378,"data":"  nn seed72 ep15 loss 0.0204\n"}
+,{"stream_name":"stdout","time":1183.656160702,"data":"test 결측 0\n"}
+,{"stream_name":"stderr","time":1192.122111733,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1192.12214895,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1192.565793641,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1192.565826419,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1193.627076445,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1195.469760179,"data":"[NbConvertApp] Writing 827996 bytes to __results__.html\n"}
+]

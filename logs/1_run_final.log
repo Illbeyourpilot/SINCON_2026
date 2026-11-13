@@ -1,0 +1,123 @@
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:227: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wd = lambda d: d[d.date.dt.dayofweek < 5]  # noqa: E731
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:227: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wd = lambda d: d[d.date.dt.dayofweek < 5]  # noqa: E731
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:227: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wd = lambda d: d[d.date.dt.dayofweek < 5]  # noqa: E731
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:227: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wd = lambda d: d[d.date.dt.dayofweek < 5]  # noqa: E731
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\final_post.py:59: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return (d.date.isin(V.HSET) | (d.date.dt.dayofweek >= 5)).astype(int)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+저장 out_repro/t.csv
+저장 out_repro/t2.csv
+시간대별 보정(log): {6: 0.047, 7: 0.04, 8: 0.067, 9: 0.065, 10: 0.081, 11: 0.093, 12: 0.099, 13: 0.098, 14: 0.106, 15: 0.138, 16: 0.133, 17: 0.034, 18: -0.048, 19: 0.015, 20: -0.001, 21: -0.029, 22: -0.022, 23: -0.033}
+저장 out_repro/sub_Gs_prehol.csv
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+저장 out_repro/t.csv
+저장 out_repro/t2.csv
+시간대별 보정(log): {6: 0.048, 7: 0.04, 8: 0.067, 9: 0.065, 10: 0.081, 11: 0.092, 12: 0.098, 13: 0.098, 14: 0.106, 15: 0.138, 16: 0.134, 17: 0.034, 18: -0.048, 19: 0.015, 20: -0.001, 21: -0.029, 22: -0.022, 23: -0.032}
+저장 out_repro/sub_Gng_prehol.csv
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+C:\sincon\SINCON_2026_final\1_front\src\lb_chain.py:14: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  wdm = lambda df: ~df.station_id.isin(NEW) & (df.date.dt.dayofweek < 5) & ~df.date.isin(V.HSET)
+저장 out_repro/t.csv
+저장 out_repro/t2.csv
+시간대별 보정(log): {6: 0.048, 7: 0.04, 8: 0.067, 9: 0.065, 10: 0.081, 11: 0.092, 12: 0.098, 13: 0.098, 14: 0.106, 15: 0.138, 16: 0.134, 17: 0.034, 18: -0.048, 19: 0.015, 20: -0.001, 21: -0.029, 22: -0.022, 23: -0.032}
+저장 out_repro/sub_safe_Gng.csv
+완료: out_repro/sub_v8dh13.csv, sub_BASE_noghost_nocanc.csv, sub_Gsh_prehol.csv, sub_Gng_prehol.csv, sub_safe_Gng.csv

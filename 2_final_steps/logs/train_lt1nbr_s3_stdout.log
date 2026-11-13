@@ -1,0 +1,593 @@
+CONFIG {"mode": "full", "model": "lgb", "groups": ["base", "newst", "graph", "event", "analog", "trend", "vac", "wx", "nbr"], "folds": ["A", "B", "C"], "seeds": [3], "rounds": 2500, "lr": 0.03, "anchor_step": 7, "cs": false, "tag": "lt1nbr_s3_full", "ev_actual": true, "lgb_params": {"num_leaves": 255, "min_data_in_leaf": 100, "feature_fraction": 0.6}}
+sincon_v2.py:91: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  df["dow"] = df.date.dt.dayofweek
+sincon_v2.py:91: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  df["dow"] = df.date.dt.dayofweek
+load 0.1s | cpu 8 | gpu False
+sincon_v2.py:146: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  self.dt = np.where(self.dates.isin(HSET), 2, np.where(self.dates.dayofweek >= 5, 1, 0))
+sincon_v2.py:147: Pandas4Warning: DatetimeIndex.dayofweek is deprecated and will be removed in a future version. Use DatetimeIndex.day_of_week instead.
+  self.dow = self.dates.dayofweek.to_numpy()
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+sincon_v2.py:225: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  dow = dates.dt.dayofweek.to_numpy()
+sincon_v2.py:100: Pandas4Warning: Series.dt.dayofyear is deprecated and will be removed in a future version. Use Series.dt.day_of_year instead.
+  df["doy"] = d.dt.dayofyear
+sincon_v2.py:105: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_prev = prev_.isin(HSET) | (prev_.dt.dayofweek >= 5)
+sincon_v2.py:106: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  off_next = next_.isin(HSET) | (next_.dt.dayofweek >= 5)
+  [full] 피처 생성 anchors 69 train 9,610,848 feats 86  (+12.0s, 누적 12s)
+  [fit lgb n=9,610,848] round 200/2500  (+108.8s, 누적 109s)
+  [fit lgb n=9,610,848] round 400/2500  (+61.3s, 누적 170s)
+  [fit lgb n=9,610,848] round 600/2500  (+51.0s, 누적 221s)
+  [fit lgb n=9,610,848] round 800/2500  (+46.6s, 누적 268s)
+  [fit lgb n=9,610,848] round 1000/2500  (+43.9s, 누적 312s)
+  [fit lgb n=9,610,848] round 1200/2500  (+44.0s, 누적 356s)
+  [fit lgb n=9,610,848] round 1400/2500  (+42.7s, 누적 398s)
+  [fit lgb n=9,610,848] round 1600/2500  (+43.5s, 누적 442s)
+  [fit lgb n=9,610,848] round 1800/2500  (+42.2s, 누적 484s)
+  [fit lgb n=9,610,848] round 2000/2500  (+40.4s, 누적 524s)
+  [fit lgb n=9,610,848] round 2200/2500  (+40.4s, 누적 565s)
+  [fit lgb n=9,610,848] round 2400/2500  (+38.7s, 누적 603s)
+  [fit lgb n=9,610,848] seed 3 학습+예측 완료  (+36.7s, 누적 640s)
+full: anchors 69 train 9,610,848 feats 86 | 653s
+count    157194.0
+mean        331.7
+std         327.1
+min           1.9
+25%         119.4
+50%         242.0
+75%         428.9
+max        4209.1

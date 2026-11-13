@@ -1,0 +1,1 @@
+CONFIG_OVERRIDE = {'mode': 'full', 'model': 'xgb', 'groups': ['base', 'newst', 'graph', 'event', 'analog', 'trend', 'vac', 'hist', 'bus'], 'seeds': [2], 'rounds': 1000, 'cs': False, 'tag': 'xh10y_s2', 'require_gpu': True, 'event_bfc': False, 'hol_block': True, 'syn2024': 'full'}

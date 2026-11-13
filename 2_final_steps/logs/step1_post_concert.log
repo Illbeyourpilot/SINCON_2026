@@ -1,0 +1,36 @@
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+C:\sincon\SINCON_2026_final\2_final_steps\code\post_concert.py:43: Pandas4Warning: Series.dt.dayofweek is deprecated and will be removed in a future version. Use Series.dt.day_of_week instead.
+  return d.isin(HSET) | (d.dt.dayofweek >= 5)
+공연 영향 역: [3124, 3125, 3126, 3127, 3128, 3129, 3130, 3220, 3221, 3222]
+문학경기장(3127) 시간대별 평균 로그 편차: {6: 0.07, 7: 0.3, 8: 0.06, 9: 0.25, 10: 0.56, 11: 0.89, 12: 0.9, 13: 0.6, 14: 1.09, 15: 0.67, 16: 0.89, 17: 0.83, 18: 0.74, 19: 1.07, 20: 1.02, 21: 3.45, 22: 6.21, 23: 3.51}
+w=1.0 | 바뀐 행 360 -> ../output/step1_plave.csv
+            old                   new           
+date 2026-09-12 2026-09-13 2026-09-12 2026-09-13
+hour                                            
+18          210        108        137        125
+19          127         71        139        139
+20          169        145        200        200
+21          259        133        832        814
+22          150         85       7630       7630
+23           22         11        160        153
